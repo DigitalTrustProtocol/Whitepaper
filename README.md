@@ -78,7 +78,7 @@ Trust messages contain a scope property for limiting the context of the trust, a
     }
 
   
-Trust package structure
+### Trust package structure
 When DTP server shares trust messages with other DTP servers, they can choose to use a package format of trust messages. This enables them to create an array of trust they have received from users and timestamp them all at once by using the Merkle algorithm. DTP servers will also sign the package with their own identity, enabling other DTP servers to be able to verify the origin of the package. By having DTP packaging and signing trust, it will help to confirm the existence of the trust, further enhancing the proof of existence of the trust, because the trust message has now been seen by at least one DTP server and shared in a package signed by the server. 
 DTP server
 The DTP can have multiple roles in the DTP protocol, as they can act as a timestamp server and as a search engine the DTP web of trust graph. 
