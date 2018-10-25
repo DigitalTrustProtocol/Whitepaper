@@ -3,8 +3,6 @@
 C. Keutmann & T. Pastoor  
 DigitalTrustProtocol.org
 
-Note: The whitepaper is in a draft state and may change regularly.
-
 ## Abstract
 The Digital Trust Protocol (DTP) is a solution for the handling of trust in the digital space. The protocol is broadly designed to work with all aspects of trust, this includes identity, reputation, and security. 
 The protocol is designed to be independent of specific systems and is very minimalistic in its design. The intention is to extend the protocol with layers above rather than direct implementations. The protocol trust message data is designed to be self-provable of authenticity, by use of private/public key algorithms and the blockchain timestamping feature. This will enable the protocol to be decentralized without a need for central authority, as servers can use a peer-to-peer communication system and verify all the data it receives individually, without having to rely on the sender.
