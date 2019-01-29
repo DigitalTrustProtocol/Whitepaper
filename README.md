@@ -162,6 +162,7 @@ A tunneling claim is where the issuer of a claim have signed both the issuer key
 A simple scenario of issuing trust and searching for it.  
 ![Issue of Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image1.png)  
 Client A issue trust to B and B issue trust to Client C  
+  
 ![Search on Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image2.png)  
 Client A searches on Client C and gets the result from the DTP search server. The result contains the trust from A to B and the trust from B to C.
 
