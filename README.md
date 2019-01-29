@@ -159,10 +159,10 @@ The DTP protocol defines a standard search and result structure for search and r
 
 A tunneling claim is where the issuer of a claim have signed both the issuer key and the subject key, thereby proving control of both keys. A tunneling claim do not enforce an incremental count of degree when calculating the search, but just follow through. It enables a deeper level of search beyond three degrees, and as the issuer usually only creates a few tunneling claims, it will limiting the number of claims to search through. A tunneling claim is suited for key management as a public identity with a private key highly secured and rarely used, can delegate trust to a daily key, by the tunneling claim. It makes it easy to have high security with convenient key management; this enables organizations to have a hierarchy of keys for divisions, departments, and employees. Trust issued by an employee can be linked all the way back to the organization's public key by a chain of claims, and therefore only the organizations public key has to be trusted when validating the proof of credentials, even that is was an employee that issued the credentials. This also makes it easy to replace keys when employees change positions or keys gets compromised.
 
-A simple scenario of issuing trust and searching for it.
-![Issue of Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image1.png)
-Client A issue trust to B and B issue trust to Client C
-![Search on Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image2.png)
+A simple scenario of issuing trust and searching for it.  
+![Issue of Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image1.png)  
+Client A issue trust to B and B issue trust to Client C  
+![Search on Trust](https://github.com/DigitalTrustProtocol/Whitepaper/blob/master/Images/DTP_image2.png)  
 Client A searches on Client C and gets the result from the DTP search server. The result contains the trust from A to B and the trust from B to C.
 
 It is up to the client to decide how to interpret the search result as the may be multiple results on from different identities having different opinions. Therefore the server presents the data, and the client handles it from there on.
