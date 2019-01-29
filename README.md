@@ -1,6 +1,5 @@
 # Digital Trust Protocol
-
-C. Keutmann & T. Pastoor
+C. Keutmann & T. Pastoor  
 DigitalTrustProtocol.org
 
 ## Abstract
