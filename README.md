@@ -221,6 +221,8 @@ The excluding trust attack is when a DTP search server selectively chooses not t
 
 With the rise of the Internet, the possibility to efficiently extend the contact surface with the rest of the world was a reality. However, this presented some problems as there is no general way to transform the trust from a near physical environment onto the digital space in a broader digital form. Merely keeping track of the trust of everybody is an overwhelming task. The solution is to leverage the trust of others trusted parties subjectively chosen and stored digitally. The DTP system aims to solve this problem by defining a protocol for sharing and searching on trust within subjects own space. The DTP system is designed to be very simple, lightweight, decentralized and open source. It is possible to extend already established systems without changing them because the DTP protocol is fundamentally a metadata system. The DTP system is intended to be used as the foundation for trust, identity, and security. The DTP system is a tool for the users to navigate in the sea of information and be able to selectively choose information relevant based the users own trusted networks and for users to do self-sovereign identity management without the need to store credential documentation privately.
 
+
+
 **References**
 
 \[1\] Verifiable Claims Data Model and Representations https://www.w3.org/TR/verifiable-claims-data-model/
