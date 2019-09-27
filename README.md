@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/DigitalTrustProtocol/community.svg)](https://gitter.im/DigitalTrustProtocol/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # Digital Trust Protocol
 C. Keutmann & T. Pastoor  
 DigitalTrustProtocol.org
